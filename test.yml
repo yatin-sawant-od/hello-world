@@ -1,0 +1,6 @@
+---
+- name: Ping to the server
+  hosts: all
+  gather_facts: false
+  tasks:
+    - action : ping
